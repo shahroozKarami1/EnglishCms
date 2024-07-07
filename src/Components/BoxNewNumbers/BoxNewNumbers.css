@@ -1,0 +1,75 @@
+.NewNumber {}
+
+.NewNumber-wrapper {
+
+    box-shadow: 1px 2px 14px 5px rgba(204, 204, 204, 0.75);
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(204, 204, 204, 0.75);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
+
+
+}
+
+.NewNumber-title {
+    font-size: 1.3rem;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+
+}
+
+
+.NewNumber-list {
+    margin-top: 2rem ;
+}
+
+.NewNumber-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom:  1px   solid  #ccc;
+    border-radius: 30%;
+}
+
+.NewNumber-list__middle {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.NewNumber-list__middle-name {
+    font-weight: bold;
+}
+
+.NewNumber-list__middle-subName {
+    font-weight: lighter;
+
+    font-size: 0.9rem;
+}
+
+.NewNumber-list__btn {
+    background-color: #FFC107;
+    color: #000;
+    border-radius: 0.5rem;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+
+}
+
+.NewNumber-list__btn-text {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.NewNumber__list-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover   !important;
+}

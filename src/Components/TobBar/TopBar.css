@@ -1,0 +1,65 @@
+.top-bar {
+    padding: 1.2rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 80px;
+    background-color: #2D2D39;
+
+}
+
+.top-bar__wrapper {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+}
+
+.top-bar__right {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.top-bar__right-icon {
+
+
+    margin-right: 1rem;
+    color: #ccc;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.top-bar__right-icon-badge {
+    top: 0;
+    position: absolute;
+    background-color: rgb(246, 30, 30);
+    color: #fff;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -10px;
+}
+
+.top-bar__right-icon svg {
+
+    font-size: 1.7rem !important;
+
+}
+
+.top-bar__left h1 {
+
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+
+}

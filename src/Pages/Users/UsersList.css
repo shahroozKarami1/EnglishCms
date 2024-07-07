@@ -1,0 +1,48 @@
+.dataGrid-avator{
+    width: 30px;
+    margin-right: 1rem  !important;
+
+}
+.dataGrid-wrapper{
+    margin: 1rem ;
+     box-shadow: 1px 2px 8px 2px rgba(204, 204, 204, 0.75)
+
+} 
+.MuiToolbar-root {
+    color:  #fff;
+}
+.MuiTablePagination-actions{
+    color: #fff;
+}
+.dataGrid-actives  {
+
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.dataGrid-actives__edit {
+    background-color: transparent;
+    border: none;
+    color: wheat;
+    background-color: teal;
+    padding: 0.2rem  ;
+    font-size: 0.9rem  ;
+    font-weight: lighter ;
+    border-radius:0.5rem   ;
+
+}
+.dataGrid-actives__trash {
+color: rgb(175, 14, 14);
+cursor: pointer;
+
+}
+
+
+.dataGrid-avator__link{
+    text-decoration: none;
+    color: #fff;
+    font-weight: lighter;
+    font-size: 0.8rem  ;
+}
+

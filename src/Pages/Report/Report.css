@@ -1,0 +1,22 @@
+.questions-wrapper {
+margin: 2rem  ;
+border-radius: 0.2rem  ;
+background-color: #fff;
+color: #000;
+display: flex;
+align-items: start;
+justify-content: space-between;
+padding:  2rem  ;
+}
+.questions-left  {
+max-width: 250px;
+text-align: left;
+margin-right: 2rem ;
+}
+.questions-left__topic  {
+    font-size: 1.5rem  ;
+
+}
+.questions-right {
+width: 100%;
+}

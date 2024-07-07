@@ -1,0 +1,41 @@
+.boxQues {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.2rem;
+    padding: 0.5rem 1rem;
+    width: 100% !important;
+    box-shadow: 1px 1px 5px 0px #000;
+}
+
+.boxQues-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxQues-left {}
+
+.boxQues-left__text {
+    font-size: 1rem;
+}
+
+.boxQues-right {}
+
+.boxQues-right__btn {
+    border: 0;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+
+.boxQues__answer {
+
+    padding: 1rem  ;
+    font-weight: bold;
+
+}

@@ -1,0 +1,93 @@
+.Transactions-wrapper {
+    box-shadow: 1px 2px 14px 5px rgba(204, 204, 204, 0.75);
+    -webkit-box-shadow: 1px 2px 5px 0px rgba(204, 204, 204, 0.75);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center !important;
+
+}
+
+.Transactions-title {
+    padding: 0.5rem 0.75rem;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+
+.Transactions-table {
+    margin: 1rem !important;
+    width: 100%;
+    border-spacing: 20px;
+}
+/* 
+.Transactions-table__row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    
+} */
+
+.Transactions-table__head {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.Transactions-table__body {
+    padding-top: 1rem !important;
+}
+
+.Transactions-table__body-inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Transactions-table__body-img {
+    width: 40px;
+    height: 40px;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.Transactions-table__body-name {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.Transactions-table__body {}
+
+.Transactions-table__body-data   , .Transactions-table__body-amount {
+    font-weight: 300;
+}
+
+.Transactions-table__btn{
+    border: 0 !important;
+      background-color: transparent  ;
+      color:  black;
+      padding: 0.25rem  ;
+      border-radius: 0.5rem ;
+      width: 80px;
+
+
+}
+
+.Transactions-table__btn.Approved{
+    color: #3bb077 !important;  
+    background-color: #e5faf2;
+}
+.Transactions-table__btn.Decline{
+    color: #d95087 !important;  
+    background-color: #e5faf2;
+}
+.Transactions-table__btn.Approved{
+    color: #3bb077 !important;  
+    background-color: #e5faf2;
+}
+.Transactions-table__btn.Approved{
+    color: #3bb077 !important;  
+    background-color: #e5faf2;
+}
